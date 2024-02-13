@@ -372,7 +372,8 @@ main{
 	justify-content: space-around;
 }
 .map{
-	
+	margin-top: 0.4rem;
+    
 }
 .fot-last{
 	display: flex;
@@ -382,16 +383,18 @@ main{
 }
 .fot-logo{
 	display: inline-flex;
-	
+
 }
 .fot-logo h2{
 	margin-top: 2rem;
 }
 .fot-media{
 	display: flex;
-	gap: 1.5rem;
+	gap: 0.5rem;
+	justify-content: center;
 }
 .fot-media a {
+	
 	display: block;
 	text-decoration: none;
 	color: white;

@@ -84,22 +84,45 @@ img{
 	position:relative;
 	align-items: center;
 	display: flex;
-	left:1000px;
+	left:75%
 }
 .login a{
 	text-decoration: none;
 	/* color: black; */
 	color: white;
+} 
+.login p{
+	color: white;
 }
+
 .login a:first-child{
 
-	padding-right: 20px;
-	border-right: 2px solid rgb(255, 247, 247);
+	padding-right: 1.5rem;
 	
 }
 .login a:last-child{
-	padding-left: 20px;
+	padding-left: 1.2rem;
+		
 }
+.login a:first-child:hover{
+	border-right: none;
+	background-color: #316FF6;
+	border-radius: 2rem;
+	text-align: center;
+	padding: 0.3rem;
+	margin-right: 1rem;	
+	
+
+}
+.login a:last-child:hover{
+	border-left:none;
+	background-color: #316FF6;
+	border-radius: 3rem;
+	text-align: center;
+	padding: 0.3rem;	
+	margin-left: 1rem;	
+}
+
 .nav{
 	/* border: 2px solid rebeccapurple;  */
 	display: flex;

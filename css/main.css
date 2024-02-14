@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* body{
-	overflow: hidden;
-} */
+/*Header Style*/
 header{
 	background-color: burlywood;
 	height: 60vh;
@@ -15,7 +13,6 @@ header{
 	background-size: cover; 
 	/* border: 2px solid red; */
 }
-
 .header{
 	display: flex;
 	flex-direction: column;
@@ -31,13 +28,12 @@ img{
 	display: flex;
 	flex-direction: row;
 	
-
 }
 .media{
 	position:relative;
 	display: flex;
 	justify-content:flex-start;
-	left: 2rem;
+	left: 1rem;
 	
 }
 .media a{
@@ -84,7 +80,7 @@ img{
 	position:relative;
 	align-items: center;
 	display: flex;
-	left:75%
+	left:74%
 }
 .login a{
 	text-decoration: none;
@@ -205,37 +201,41 @@ button{
 	border: none;
 	border-radius: 30px;
 	cursor: pointer;
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(232, 119, 6);
 	width:125px;
 	height:50px;
 	font-size:small;
 	color: white;	
 }
+button:hover{
+	background-color: black;
+	color: #25D366;
+}
 main{
-	margin-right: 1rem;
-	margin-left: 1rem;
+	margin-right: 1.5rem;
+	margin-left: 1.5rem;
 }
 .par-one{
-
-	
+	margin-top: 4rem;
 	display: flex;
 	flex-direction: column;
 	align-content: space-evenly;
 	width: 100%;
-	gap: 3rem;
+	gap: 5rem;
 
 }
 .head{
 	text-align: center;
-	margin: 3rem;
-	font-size: medium;
-	font-family:'Times New Roman', Times, serif;
-	font-style: oblique;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:x-large;
+	font-weight: 400;
+	font-style: italic;
+	color: rgba(0, 0, 0, 0.334);
 	
 }
 .serviceone{
 	display: flex;
-	gap: 3rem;
+	gap: 2rem;
 	justify-content: space-evenly;
 }
 .service-one{
@@ -244,12 +244,15 @@ main{
 	justify-content: flex-start;
 	width: 25%;
 	height:50%;
-	gap: 1.5rem;
+	gap: 2rem;
 }
 .service-one img {
 	width: 100%;
 	height: 100%;
 	border-radius: 20px;
+}
+.serviceone img:hover{
+	opacity: 0.4;
 }
 .service-one h4{
 	text-align: center;
@@ -265,15 +268,13 @@ main{
 	text-align: center;
  }
 
-
-
 .service-two{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	width: 25%;
 	height:50%;
-	gap: 1.5rem;
+	gap: 2rem;
 }
 .service-two img {
 	width: 100%;
@@ -302,7 +303,7 @@ main{
 	justify-content: flex-start;
 	width: 25%;
 	height:50%;
-	gap: 1.5rem;
+	gap: 2rem;
 }
 .service-three img {
 	width: 100%;
@@ -329,7 +330,7 @@ main{
 	justify-content: flex-start;
 	width: 25%;
 	height:50%;
-	gap: 1.5rem;
+	gap: 2rem;
 }
 .service-four img {
 	width: 100%;
@@ -338,6 +339,7 @@ main{
 }
 .service-four h4{
 	text-align: center;
+	font-style: oblique;
 	
 }
 .service-four p{
@@ -374,6 +376,9 @@ main{
 	margin-top: 4rem;
 
 }
+.us-img img:hover{
+	opacity: 0.4;
+}
 .us-word{
 	width: 50%;
 	display: flex;
@@ -384,17 +389,21 @@ main{
 }
 
 .us-head{
-	font-size: larger;
-	font-weight: 100;
-	font-style: oblique;
-   text-align: center;
-}
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:x-large;
+	font-weight: 400;
+	font-style: italic;
+	color: rgba(0, 0, 0, 0.334);
+ }
 .us-parg{
 	margin-bottom: 4rem;
 	margin-top: 0%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-align: justify;
 	font-style:inherit;
 	font-weight: 500;
+	color:rgba(0, 0, 0, 0.803)
 }
 .us-parg span{
 	display: block;
@@ -404,18 +413,119 @@ main{
 /* --------------------------------------------------------------------------------------------------
  Contact US Style 
  */
- .article-three{
-	width: 100vw;
-	height: 50vh;
-	margin-top: 5rem;
- }
  .head-contact{
+	margin-top: 5rem;
 	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:x-large;
+	font-weight: 400;
+	font-style: italic;
+	color: rgba(0, 0, 0, 0.334);
  }
+ .article-three{
+	display: flex;
+	margin-top: 2rem;
+	width: 100%;
+	height: 70%;
+
+	
+ }
+
  .contact_one
  {
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-top: 2rem;
+	padding: 2rem;
+	width: 50%;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	background-color: rgba(255, 192, 203, 0.264);
+ }
+
+ .address, .email ,.phone ,.time{
+	display: flex;
+	gap: 1.5rem;
+
+ }
+ .address_two{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.3rem;
+	
+ }
+ .address i{
+	color: teal;
+}
+ .email_two{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.3rem;
+
+ }
+ .email i{
+	color: teal
+ }
+.phone_two{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.3rem;
+}
+.phone i{
+	color:teal;
+}
+.time_two{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.3rem;
+}
+.time i{
+	color: teal;
+}
+
+.contact_two{
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-top: 2rem;
+	padding: 2rem;
+	width: 50%;
+	background-color: rgba(255, 192, 203, 0.264);
+	
+}
+input[type='text']{
+	margin: 1rem;
+	width: 50%;
+	height: 2rem;
+ }
+ input[type='text'], ::placeholder{
+	padding-left:1rem ;
+ }
+ input[type='email']{
+	margin: 1rem;
+	width: 50%;
+	height: 2rem;
+ }
+ input[type='email'], ::placeholder{
+	padding-left:1rem ;
+ }
+ input[type='tel']{
+	margin: 1rem;
+	width: 50%;
+	height: 2rem;
+ }
+ input[type='tel'], ::placeholder{
+	padding-left:1rem ;
+ }
+ #message{
+	height: 5rem;
+ }
+ #message::placeholder{
+	text-align:start;
+	
  }
 /* Footer Style*/
 .footer{

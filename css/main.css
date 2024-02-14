@@ -143,6 +143,13 @@ img{
 	text-decoration: none;
 	
 }
+.nav1 a:hover{
+	background-color: #316FF6;
+	color: black;
+	width: 30%;
+	text-align: center;
+	border-radius:40px;
+}
 .logo{
 	display: flex;
 	align-content:center ;
@@ -159,6 +166,17 @@ img{
 	color: white;
 	text-decoration: none;
 	
+}
+.nav2 a:hover{
+	background-color: #316FF6;
+	color: black;
+	width: 30%;
+	text-align: center;
+	border-radius:40px;
+}
+.nav2 a:hover:nth-child(3)
+{
+	width: 40%;
 }
 .slogan{
 	height: 30vh;
@@ -383,6 +401,22 @@ main{
 	text-align: center;
 }
 
+/* --------------------------------------------------------------------------------------------------
+ Contact US Style 
+ */
+ .article-three{
+	width: 100vw;
+	height: 50vh;
+	margin-top: 5rem;
+ }
+ .head-contact{
+	text-align: center;
+ }
+ .contact_one
+ {
+	display: flex;
+	flex-direction: row;
+ }
 /* Footer Style*/
 .footer{
 	margin-top:5rem;
@@ -469,8 +503,7 @@ main{
 .fot-media a:nth-child(4):hover{
 	background-color:#25D366;
 	color:black;
-	border-radius: 50%;
-	
+	border-radius: 50%;	
 }
 
 

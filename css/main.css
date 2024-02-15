@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -27,6 +28,7 @@ img{
 	/* border: 2px solid salmon; */
 	display: flex;
 	flex-direction: row;
+	gap:62rem;
 	
 }
 .media{
@@ -76,11 +78,12 @@ img{
 	color: white;
 	border-radius: 50%;
 }
-.social  .login{
+.login{
 	position:relative;
 	align-items: center;
 	display: flex;
-	left:74%
+	justify-content: space-between ;
+	
 }
 .login a{
 	text-decoration: none;
@@ -385,7 +388,7 @@ main{
 	flex-direction: column;
 	gap: 3rem;
 	margin-left: 4rem;
-	margin-top: 5rem;
+	margin-top: 4rem;
 }
 
 .us-head{
@@ -402,6 +405,7 @@ main{
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-align: justify;
 	font-style:inherit;
+	font-family: "Jost", sans-serif;
 	font-weight: 500;
 	color:rgba(0, 0, 0, 0.803)
 }
@@ -496,9 +500,15 @@ main{
 	background-color: rgba(255, 192, 203, 0.264);
 	
 }
+.firstname{
+	display: flex;
+}
+.lastname{
+	display: flex;
+}
 input[type='text']{
 	margin: 1rem;
-	width: 50%;
+	width: 100%;
 	height: 2rem;
  }
  input[type='text'], ::placeholder{
@@ -520,12 +530,18 @@ input[type='text']{
  input[type='tel'], ::placeholder{
 	padding-left:1rem ;
  }
- #message{
-	height: 5rem;
- }
+textarea{
+	margin-top: 1rem;
+	margin-left: 1rem;
+	width: 100%;
+}
  #message::placeholder{
-	text-align:start;
-	
+	text-align:start;	
+ }
+ .form_Submit{
+	text-align: center;
+	margin-top: 1rem;
+	margin-left: 1rem;
  }
 /* Footer Style*/
 .footer{

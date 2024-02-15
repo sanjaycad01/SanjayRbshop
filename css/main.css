@@ -28,7 +28,7 @@ img{
 	/* border: 2px solid salmon; */
 	display: flex;
 	flex-direction: row;
-	gap:62rem;
+	justify-content: space-between;
 	
 }
 .media{
@@ -83,6 +83,7 @@ img{
 	align-items: center;
 	display: flex;
 	justify-content: space-between ;
+	margin-right: 2rem;
 	
 }
 .login a{
@@ -527,9 +528,10 @@ input[type='text']{
 	width: 50%;
 	height: 2rem;
  }
- input[type='tel'], ::placeholder{
+ input[type='tel'],::placeholder{
 	padding-left:1rem ;
  }
+ 
 textarea{
 	margin-top: 1rem;
 	margin-left: 1rem;
@@ -537,6 +539,7 @@ textarea{
 }
  #message::placeholder{
 	text-align:start;	
+	padding-top:0.5rem;
  }
  .form_Submit{
 	text-align: center;

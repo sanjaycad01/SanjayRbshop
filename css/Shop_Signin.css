@@ -3,32 +3,128 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 5rem;
-    word-spacing: 0.4rem;
-}
-header h2{
-    padding-left: 1rem;
-}
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
-article{
-    width: 25%;
-    height: 50vh;
+header{
+    margin-top: 3rem;
+    font-size: 2rem;
     text-align: center;
-    border: 2px solid black;
+    padding-left: 1rem;
 }
-.login_head{
+ .signin_head{
+    margin-top: 2rem;
     text-align: center;
-    margin-top: 1rem;
 }
-.login_head p{
+.signin_head > p{
     font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
-.login_head small{
-    color: rgba(0, 0, 0, 0.527);
+form{
+    width: 70%;
+    height: 60vh;
+    
+    
 }
+ .signin_form{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-content: center;
+    gap: 0.5rem;
+
+} 
+.singin_one{
+    display: flex; 
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 85%;
+    border-radius: 2rem;
+    margin: 0.5rem 2rem 4rem 2rem ;
+}
+.singin_one input{
+    width: 90%;
+    height: 2rem;
+    margin: 0 auto;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border: 2px solid rgba(128, 128, 128, 0.762);
+}
+
+.singin_one input::placeholder{
+    padding-left: 0.5rem;
+}
+.singin_one input:hover{
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
+   
+}
+.singin_one input:focus{
+     outline: none;
+     padding: 10px;
+     box-shadow: inset 5px 10px 10px rgba(0, 0, 0, 0.411) ;
+     padding-left: 1.5rem;
+    
+}
+.singin_one1{
+    grid-column: 1/3;
+}
+.btn{
+    margin-right: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+button{
+    width: 20%;
+    height: 3rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: cadetblue;
+    border: none;
+
+}
+button:hover{
+    background-color: rgba(95, 158, 160, 0.562);
+    font-size: 1rem;
+}
+.singin_one1 a{
+    display: inline-block;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+} 
+.singin_one1 a:hover{
+    font-size: 1rem;
+    color:rgba(0, 128, 255, 0.899)
+}
+
+/*
+.signin_form{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2rem;
+    
+   
+}
+
+
+
+
+.gender{
+    display: flex;
+} */
+
+

@@ -53,7 +53,7 @@ input:focus{
 }
 input[type='text']:hover,input[type='password']:hover{
     border: none;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.449);
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.449);
 }
 
 input[type='password']{
@@ -66,6 +66,7 @@ input[type='password']{
  }
  input:focus{
     outline: none;
+    padding-left: 1.5rem;
 }
  button{
     width: 290px;

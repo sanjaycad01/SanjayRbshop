@@ -109,13 +109,13 @@ button:hover{
     text-align: center;
     margin-top: 1.5rem;
     text-decoration: none;
+    margin-left: 1rem;
     color: black;
+    font-size: 1.2rem;
 }
 .singin_two a:hover{
-    font-size: 1.2rem;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:rgb(0, 128, 255)
-} */
+    text-decoration:underline;
+} 
 
 
 /*
